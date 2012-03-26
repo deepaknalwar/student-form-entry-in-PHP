@@ -1,0 +1,25 @@
+
+What is application do?
+This application does students personal form entry where we wish to user enter
+his Name,Class,Hobbies,Address and we automatically generate his ID using MySQL 
+function.
+Here we used MySQl for Database contain "kn_proj" as database name and "student"
+ is a table name having 5 fields.
+When user enter his details & submit the form then at back end using php we store 
+the record into database & using ajax we show the record on same page without 
+reloading that page.  
+
+
+How to Install?
+when we creating php file that file store in "www" folder.you should copy
+this ajax1 folder within your wamp www folder, For database i was exported one SQL file which have
+"kn_proj" as a name & that file contained previous data so, you wish to import that file.
+
+
+How to run?
+firstly check out the our wamp server is on or not for that write into broser 
+url http://localhost/ so, you can get result if server is on.
+Go to web-browser write http://localhost/ajax1 at url then you get Student 
+personal data entry form, fill it and submit it then you get desired output.
+
+
